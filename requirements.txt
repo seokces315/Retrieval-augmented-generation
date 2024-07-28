@@ -1,0 +1,17 @@
+numpy
+datasets
+transformers
+wandb
+accelerate
+faiss
+torch
+
+'''
+pip install numpy
+pip install datasets
+pip install transformers
+pip install wandb
+pip install accelerate -U
+conda install -c pytorch -c nvidia faiss-gpu=1.8.0
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+'''
